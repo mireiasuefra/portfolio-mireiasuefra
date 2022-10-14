@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.scss";
-import LandingPage from "./components/header/landing-page/LandingPage";
+import LandingPage from "./components/landing-page/LandingPage";
+import NavMenu from "./components/nav-menu/NavMenu";
 
 function App() {
   return (
-    <div>
+    <div className="body">
+      <NavMenu/>
       <LandingPage />
       <main className="main"></main>
     </div>

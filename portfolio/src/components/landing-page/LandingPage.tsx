@@ -8,7 +8,7 @@ interface LandingPageProps {}
 function LandingPage(props: LandingPageProps) {
   return (
     <div className="landing">
-      <div className="triangle"></div>
+      <div className="landing__triangle"></div>
       <div className="landing__transition">
         <h1 className="landing__title">Hello World!!</h1>
         <h2 className="landing__subtitle">
