@@ -13,13 +13,13 @@
 }
 
 .landing {
-  background-color: $color-fifth;
   color: $color-principal;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
+  height: 100%;
 
   &__triangle {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -37,8 +37,21 @@
 
   &__title {
     text-transform: uppercase;
-    text-shadow: 30px $color-secondary;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 70px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 300px;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 35px;
+      max-width: 600px;
+    }
   }
 }

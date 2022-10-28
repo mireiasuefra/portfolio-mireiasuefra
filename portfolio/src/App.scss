@@ -1,7 +1,15 @@
+@import "./styles/shared.scss";
+
 .body {
   width: 100vw;
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 10vh 90vh;
+  grid-template-rows: 6vh 94vh;
   grid-gap: 0px;
+}
+
+.main {
+  height: 100%;
+  background-color: $color-fifth;
+  overflow-x: hidden;
 }
