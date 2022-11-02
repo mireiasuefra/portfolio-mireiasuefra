@@ -1,54 +1,77 @@
 import "./ContactMe.scss";
 import React from "react";
 
+import Footer from "../footer/Footer";
+
 function ContactMe() {
   return (
-    <>
-      <section className="contact">
+    <section>
+      <div className="contact">
         <h3 className="contact__title">If you want to contact me:</h3>
-        <p className="contact__text">
-          You can do it by phone at:
-          <span className="contact__text-number">665 249 013</span>
-        </p>
-        <div className="contact__container">
-          <p className="contact__text">
-            If you prefer, you can email me at:
-            <span className="contact__text-email">mireia.suefra@gmail.com</span>
-          </p>
-          <a
-            className="contact__web"
-            href="mailto:mireia.suefra@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="icon fa fa-envelope"></i>
-          </a>
-        </div>
-        <div className="contact__container">
-          <p className="contact__text">
-            If you want to know a bit more about me, I leave you the link to my
-            Github and my Linkedin:
+
+        <div className="contact__form">
+          <p className="contact__form-text">
+            If you have any questions or would like me to tell you more about my
+            experience, please fill in this form and I will be happy to answer
+            you.
           </p>
 
-          <a
-            className="contact__web"
-            href="https://github.com/mireiasuefra"
-            target="_blank"
-            rel="noreferrer"
+          <form
+            action="https://formsubmit.co/mireia.suefra@gmail.com"
+            className="contact__form-form"
+            method="POST"
           >
-            <i className="icon fab fa-github-square"></i>
-          </a>
-          <a
-            className="contact__web"
-            href="https://www.linkedin.com/in/mireia-suefra/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="icon fab fa-linkedin"></i>
-          </a>
+            <fieldset className="contact__form-fieldset">
+              <input
+                className="contact__form-input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </fieldset>
+
+            <fieldset className="contact__form-fieldset">
+              <input
+                className="contact__form-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@mail.com"
+              />
+            </fieldset>
+
+            <fieldset className="contact__form-fieldset">
+              <textarea
+                className="contact__form-input"
+                name="message"
+                id="mensaje"
+                placeholder="message"
+              ></textarea>
+            </fieldset>
+
+            <fieldset className="contact__form-fieldset">
+              <button
+                className="contact__form-btn"
+                type="submit"
+                name="submit_form"
+                id="submit"
+              >
+                send
+              </button>
+            </fieldset>
+            <input
+              className="contact__form-input"
+              type="hidden"
+              name="_next"
+              value="http://localhost:3000/#/contact-me"
+            ></input>
+            <input type="hidden" name="_captcha" value="false"></input>
+          </form>
         </div>
-      </section>
-    </>
+      </div>
+      <Footer />
+    </section>
   );
 }
 

@@ -10,46 +10,45 @@
   background-color: $color-fourth;
   box-shadow: inset 0px 11px 8px -10px $color-secondary,
     inset 0px -11px 8px -10px $color-secondary;
+    min-height: 75vh;
 
   &__title {
     color: $color-principal;
-    font-size: 40px;
+    font-size: 20px;
     box-shadow: 2px 2px 5px $color-fifth;
     text-align: center;
-  }
 
-  &__text {
-    color: $color-principal;
-    font-size: 20px;
-    text-align: justify;
-
-    &-number {
-      font-size: 30px;
-      margin-left: 20px;
-    }
-    &-email {
-      font-size: 30px;
-      margin-left: 20px;
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 40px;
     }
   }
 
-  &__container{
+  &__form {
     display: flex;
-    flex-direction: row;
-  }
-
-  &__web {
-    font-size: 30px;
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-left: 20px;
-    color: $color-principal;
-    text-decoration: none;
-    cursor: pointer;
 
-    &:hover {
-      color: $color-fifth;
+    &-text {
+    }
+
+    &-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+    }
+
+    &-fieldset {
+      background-color: $color-fifth;
+      width: 100%;
+    }
+
+    &-input {
+      width: 100%;
+    }
+
+    &-btn {
+      width: 100%;
     }
   }
 }
