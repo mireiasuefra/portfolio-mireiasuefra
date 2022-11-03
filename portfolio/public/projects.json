@@ -1,5 +1,6 @@
 [
   {
+    "id": "1",
     "name": "descodigadas",
     "image": "./../src/images/descodigadas.jpg",
     "url": "https://mireiasuefra.github.io/descodigadas/",
@@ -8,6 +9,7 @@
     "tech": ["HTML5", "SCSS"]
   },
   {
+    "id": "2",
     "name": "spotify",
     "image": "./../src/images/spotify.jpg",
     "url": "https://mireiasuefra.github.io/landing-page-spotify/",
@@ -16,6 +18,7 @@
     "tech": ["SCSS", "HTML5"]
   },
   {
+    "id": "3",
     "name": "rock-paper-scissors",
     "image": "./../src/images/rock-paper-scissors.jpg",
     "url": "https://mireiasuefra.github.io/rock-paper-scissors/",
@@ -24,6 +27,7 @@
     "tech": ["JavaScript", "CSS", "HTML5"]
   },
   {
+    "id": "4",
     "name": "harry-potter",
     "image": "./../src/images/harry-potter.jpg",
     "url": "https://mireiasuefra.github.io/searcher-harry-potter/",
@@ -32,6 +36,7 @@
     "tech": ["React", "React-Router", "SCSS"]
   },
   {
+    "id": "5",
     "name": "hangman",
     "image": "./../src/images/hangman.jpg",
     "url": "https://mireiasuefra.github.io/hangman-game/",
@@ -40,6 +45,7 @@
     "tech": ["React", "React-Router", "SCSS"]
   },
   {
+    "id": "6",
     "name": "ask-me",
     "image": "./../src/images/ask-me.jpg",
     "url": "https://mireiasuefra.github.io/ask-me/",
@@ -48,6 +54,7 @@
     "tech": ["React", "SCSS"]
   },
   {
+    "id": "7",
     "name": "repositories",
     "image": "./../src/images/repositories.jpg",
     "url": "https://mireiasuefra.github.io/github-searcher/",

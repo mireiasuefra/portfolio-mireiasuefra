@@ -13,66 +13,64 @@ function AboutMe() {
         </div>
         <h3 className="me__title">About me:</h3>
         <p className="me__text">
-          Soy Mireia y soy una desarrolladora frontend junior. Tengo experiencia
-          en React, Javascript, HTML, CSS y SASS. Trabajo con metodologías
-          ágiles e intento aplicar las buenas prácticas a la hora de programar.
-          Mi formación previa es en el campo de lo social, donde trabajé como
-          educadora social e integradora social.
+          My name is Mireia and I am a junior frontend developper. I have the
+          following skills: React, Javascript, HTML, CSS y SASS. I'm used to
+          work with agile methodologies and I try to apply best practices when
+          coding. I came from a social background where I worked as educator.
         </p>
         <p className="me__text">
-          Siempre he estado ligada al mundo de la programación ya que en mi
-          entorno cuento con varias personas que se dedican al desarrollo web.
-          Mi primer contacto con la programación fue en unas prácticas que
-          realicé con jóvenes de Madrid. Hacíamos alfabetización digital a
-          personas mayores y en nuestros tiempos libres jugábamos con HTML y
-          CSS.
+          I've always been sorrounded by the development world since some people
+          from my close circle work in the web development sector. My first
+          contact with development or coding was during an internship with young
+          people in Madrid. We run courses about digital literacy to eldery
+          people and we played with HTML and CSS in our free time.
         </p>
         <p className="me__text">
-          En el verano de 2021 quise explorar más y realicé diversos cursos
-          sobre programación web, HTML, CSS y JavaScript. Me gustó demasiado
-          como para dejarlo ahí y me convencí de dar un giro a mi carrera y
-          apostar por este campo. Decidí apuntarme al Bootcamp de Adalab, una
-          escuela de formación digital para mujeres de la que ya tenía buenas
-          referencias. El temario que ofertaban se ajustaba a lo que estaba
-          buscando.
+          In the summer of 2021, I wanted to explore more of this world and I
+          attended to some more courses about web development, HTML, CSS and
+          JavaScript. I really liked it and I was not willing to let that
+          motivation let go, so I decided to do a a 180 degrees change to my
+          professional career and going full for it. Then I signed in to Adalab
+          Bootcamp' (Adalab is digital trainning school for women that I had
+          very good references). The content of the course fit in what I was
+          looking for.
         </p>
         <p className="me__text">
-          Fue en Adalab donde realmente me enamoré de la programación.
-          Comenzamos de nuevo con HTML y CSS, pero en más profundidad. ¡Poder
-          dar vida a páginas estáticas es todo un hito cuando estás empezando!
-          Te crees un "senior" de la programación :). Reconozco que la parte de
-          maquetación es de mis favoritas, me gusta mucho dar forma a los
-          diseños que me dan o a despertar mi lado creativo.
+          And I fall in love with coding there in Adalab. We started over with
+          HTML y CSS, but we went deeper. Finally being able to give life to
+          static webpages is a true landmark for a begginer! You feel like a
+          "senior" web developper :). I must confess that the layout work is one
+          of my favorites ones. I like giving shape to others designs or even
+          let my creativity take control of it.
         </p>
         <p className="me__text">
-          Después de esto seguimos con JavaScript y React, lo de "senior" ya no
-          lo tenía tan claro :). Pero cuando le empiezas a pillar el truco y das
-          dinamismo a esas páginas, sientes que (aunque sabes que tienes mucho
-          más que aprender) te comes el mundo. Madre mía lo bien que sienta
-          cuando todo acaba de funcionar.
+          After that, we continued with JavaScript and React: the "senior" was
+          not so clear at this point :). But once you start understand it and
+          you see the pages getting more dynamic, you feel like (even knowing
+          that you have still a lot to learn) you can eat the world. That
+          feeling when everything end up working: glorius.
         </p>
         <p className="me__text">
-          Aunque tengo muchos años de experiencia laboral en otros ámbitos y he
-          aprendido bien lo que es el trabajo en equipo no habia tenído la
-          oportunidad de trabajar con metodologías ágiles. En el bootcamp
-          aprendimos a gestionarnos con Scrum. En cada módulo tenía un equipo
-          diferente y teníamos que realizar un proyecto. Dividiamos el trabajo
-          por sprint, hacíamos las daylis a diario, también teníamos la demo del
-          proyecto, etc. Una de las cosas que más me gustaron de trabajar con
-          compañeras es el pair programing, cuando estás atascada en algo
-          siempre se dice que cuatro ojos ven más que dos.
+          Even though I have a lot of years of experience on others sectors and
+          I have learned what teamwork means, I haven't had the chance to work
+          with agile methodologies. We also learned at the Bootcamp how to
+          manage using Scrum. In each module we had a different team and we must
+          to finish the project. So we divided the work using sprints, we had
+          the daily meeting, a project demo was also held, and so on. One of the
+          things I loved most about this was the pair programming: when you are
+          stuck it is known that four eyes can see more than two.
         </p>
         <p className="me__text">
-          Después de terminar el bootcamp he seguido formándome por mi cuenta,
-          he realizado distintos proyectos intentando superarme cada vez un
-          poquito más. He investigado sobre distintas librerías como Material
-          UI, Prime, Bootstrap, también hice un proyecto con Vue.js (quería
-          saber como funcionaba otro framework).
+          Once the Bootcamp was over, I have kept the path of self-learning and
+          completed some more projects, trying to overcome myself a step at a
+          time. I have learned about other libraries such as Material UI, Prime,
+          Bootstrap. I have also done a Vue.js project (I wanted to know how
+          other framework worked).
         </p>
         <p className="me__text">
-          En este momento estoy estudiando unos cursos de Typescript de
-          OpenBootcamp y cuando lo acabe me gustaría hacer el curso sobre
-          testing que también tienen.
+          At this very moment I am learning about Typescript at OpenBootcamp and
+          once I compelted this one I would like to start the testing course
+          they also have there.
         </p>
       </div>
       <Footer />
