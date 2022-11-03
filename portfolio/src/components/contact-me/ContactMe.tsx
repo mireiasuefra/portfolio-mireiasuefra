@@ -22,6 +22,9 @@ function ContactMe() {
             method="POST"
           >
             <fieldset className="contact__form-fieldset">
+              <label className="contact__form-label" htmlFor="name">
+                Name:
+              </label>
               <input
                 className="contact__form-input"
                 type="text"
@@ -32,6 +35,9 @@ function ContactMe() {
             </fieldset>
 
             <fieldset className="contact__form-fieldset">
+              <label className="contact__form-label" htmlFor="email">
+                Email:
+              </label>
               <input
                 className="contact__form-input"
                 type="email"
@@ -42,8 +48,11 @@ function ContactMe() {
             </fieldset>
 
             <fieldset className="contact__form-fieldset">
+              <label className="contact__form-label" htmlFor="message">
+                What do you need?
+              </label>
               <textarea
-                className="contact__form-input"
+                className="contact__form-textarea"
                 name="message"
                 id="mensaje"
                 placeholder="message"

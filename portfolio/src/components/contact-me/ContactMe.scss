@@ -10,7 +10,7 @@
   background-color: $color-fourth;
   box-shadow: inset 0px 11px 8px -10px $color-secondary,
     inset 0px -11px 8px -10px $color-secondary;
-    min-height: 75vh;
+  min-height: 75vh;
 
   &__title {
     color: $color-principal;
@@ -29,6 +29,9 @@
     align-items: center;
 
     &-text {
+      font-family: $principal-font;
+      color: $color-principal;
+      font-size: 20px;
     }
 
     &-form {
@@ -41,10 +44,32 @@
     &-fieldset {
       background-color: $color-fifth;
       width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border: none;
+    }
+
+    &-label {
+      font-family: $principal-font;
+      color: $color-principal;
     }
 
     &-input {
       width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+    }
+    &-textarea {
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 70px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+
     }
 
     &-btn {

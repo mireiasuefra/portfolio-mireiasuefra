@@ -1,0 +1,11 @@
+[
+{
+    "name": "projecto1",
+    "image": "imagen.jpg",
+    "url": "www.xxx.com",
+    "github_url": "www.xxx.com",
+    "description": "patata",
+    "tech": ["React", "SCSS"]
+}
+]
+
