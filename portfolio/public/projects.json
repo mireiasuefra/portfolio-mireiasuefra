@@ -1,11 +1,59 @@
 [
-{
-    "name": "projecto1",
-    "image": "imagen.jpg",
-    "url": "www.xxx.com",
-    "github_url": "www.xxx.com",
-    "description": "patata",
+  {
+    "name": "descodigadas",
+    "image": "./../src/images/descodigadas.jpg",
+    "url": "https://mireiasuefra.github.io/descodigadas/",
+    "github_url": "https://github.com/mireiasuefra/descodigadas",
+    "description": "Website from scratch with responsive design. ",
+    "tech": ["HTML5", "SCSS"]
+  },
+  {
+    "name": "spotify",
+    "image": "./../src/images/spotify.jpg",
+    "url": "https://mireiasuefra.github.io/landing-page-spotify/",
+    "github_url": "https://github.com/mireiasuefra/landing-page-spotify",
+    "description": "In this project I make a copy of the Spotify landing page",
+    "tech": ["SCSS", "HTML5"]
+  },
+  {
+    "name": "rock-paper-scissors",
+    "image": "./../src/images/rock-paper-scissors.jpg",
+    "url": "https://mireiasuefra.github.io/rock-paper-scissors/",
+    "github_url": "https://github.com/mireiasuefra/rock-paper-scissors",
+    "description": "This is the famous rock, paper, scissors game, this time done with JavaScript",
+    "tech": ["JavaScript", "CSS", "HTML5"]
+  },
+  {
+    "name": "harry-potter",
+    "image": "./../src/images/harry-potter.jpg",
+    "url": "https://mireiasuefra.github.io/searcher-harry-potter/",
+    "github_url": "https://github.com/mireiasuefra/searcher-harry-potter",
+    "description": "Development of a website inspired by Harry Potter characters. Using the API provided (https://hp-api.herokuapp.com/), I have generated a search engine for characters from the famous saga, filtering by name or house of the character.",
+    "tech": ["React", "React-Router", "SCSS"]
+  },
+  {
+    "name": "hangman",
+    "image": "./../src/images/hangman.jpg",
+    "url": "https://mireiasuefra.github.io/hangman-game/",
+    "github_url": "https://github.com/mireiasuefra/hangman-game",
+    "description": "This is the famous hangman game, this time done with React. Exercise carried out in pair programming with a partner.",
+    "tech": ["React", "React-Router", "SCSS"]
+  },
+  {
+    "name": "ask-me",
+    "image": "./../src/images/ask-me.jpg",
+    "url": "https://mireiasuefra.github.io/ask-me/",
+    "github_url": "https://github.com/mireiasuefra/ask-me",
+    "description": "In this project you will see some of my programming skills",
     "tech": ["React", "SCSS"]
-}
-]
+  },
+  {
+    "name": "repositories",
+    "image": "./../src/images/repositories.jpg",
+    "url": "https://mireiasuefra.github.io/github-searcher/",
+    "github_url": "https://github.com/mireiasuefra/github-searcher-ts",
+    "description": "This is an application where you can search for my Github repositories.",
+    "tech": ["React", "Typescript", "SCSS", "Primer"]
+  }
 
+]
