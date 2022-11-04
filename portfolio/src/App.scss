@@ -1,5 +1,15 @@
 @import "./styles/shared.scss";
 
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+
 .body {
   width: 100vw;
   min-height: 100vh;

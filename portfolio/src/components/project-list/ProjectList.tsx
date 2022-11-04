@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import getJson from "../../services/api";
 import Footer from "../footer/Footer";
 import { Project } from "../../types/project";
+import ProjectItem from "../project-item/ProjectItem";
 
 function ProjectList() {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -16,7 +17,9 @@ function ProjectList() {
 
   const renderProjects = () => {
     return projects.map((oneProject: Project) => {
-      return <div>{oneProject.name}</div>
+      return (
+        <ProjectItem project={oneProject} />
+      );
     })
   }
 

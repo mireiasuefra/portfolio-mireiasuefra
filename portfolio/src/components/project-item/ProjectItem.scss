@@ -1,0 +1,50 @@
+@import "./../../styles/shared.scss";
+
+.item {
+display: flex;
+flex-direction: column;
+
+  &__name {
+    color: $color-principal;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $breakpoint-tablet) {
+        display: flex;
+        flex-direction: row;
+      }
+  }
+
+  &__image {
+    width: 500px;
+    height: 300px;
+
+    @media (min-width: $breakpoint-tablet) {
+      width: 1000px;
+      height: 600px;
+    }
+  }
+
+  &__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: $color-principal;
+    background-color: $color-fifth;
+    
+    font-size: 20px;
+    font-style:oblique;
+
+    padding-left: 10px;
+
+
+    
+  }
+}
