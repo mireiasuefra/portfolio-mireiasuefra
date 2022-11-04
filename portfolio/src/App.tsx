@@ -5,7 +5,7 @@ import AboutMe from "./components/about-me/AboutMe";
 import ContactMe from "./components/contact-me/ContactMe";
 import LandingPage from "./components/landing-page/LandingPage";
 import NavMenu from "./components/nav-menu/NavMenu";
-import ProyectList from "./components/proyect-list/ProyectList";
+import ProjectList from "./components/project-list/ProjectList";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage/>} />
           <Route path="/about-me" element={<AboutMe/>} />
-          <Route path="/my-projects" element={<ProyectList/>} />
+          <Route path="/my-projects" element={<ProjectList/>} />
           <Route path="/contact-me" element={<ContactMe/>} />
         </Routes>
       </main>
