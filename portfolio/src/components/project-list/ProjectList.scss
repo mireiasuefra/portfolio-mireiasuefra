@@ -7,6 +7,8 @@
   font-family: $principal-font;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 50px;
+  padding-top: 40px;
   background-color: $color-fourth;
   box-shadow: inset 0px 11px 8px -10px $color-secondary,
     inset 0px -11px 8px -10px $color-secondary;
@@ -17,11 +19,14 @@
     font-size: 40px;
     box-shadow: 2px 2px 5px $color-fifth;
     text-align: center;
+    margin-top: 50px;
   }
 
   &__text {
     color: $color-principal;
     font-size: 20px;
     text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
 }
