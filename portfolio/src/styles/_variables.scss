@@ -1,10 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@font-face {
+  font-family: "hello-font";
+  src: url("./../../public/fonts/DK-Cosmo-Stitch.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "principal";
+  src: url("./../../public/fonts/DJB-The-Teacher-Font.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "secondary";
+  src: url("./../../public/fonts/Amandella.otf") format("truetype");
+}
 
 $breakpoint-tablet: 825px;
 $breakpoint-desktop: 1024px;
-$principal-font: 'Noto Sans', sans-serif;
+$hello-font: "hello-font";
+$principal-font: "principal";
+$secondary-font: "secondary";
 $color-principal: #011504;
 $color-secondary: #498752;
 $color-terciary: #dd7b0b;
-$color-fourth:  #eeeeee;
+$color-fourth: #eeeeee;
 $color-fifth: #d4ebd0;

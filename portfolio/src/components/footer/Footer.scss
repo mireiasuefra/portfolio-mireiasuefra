@@ -19,6 +19,7 @@
     &__img {
       height: 80px;
       border-radius: 20%;
+      padding-bottom: 3px;
   
       @media (min-width: $breakpoint-tablet) {
         height: 100px;
@@ -40,7 +41,7 @@
     &__rrss-web {
       padding-left: 15px;
       color: $color-terciary;
-      cursor: pointer;
+      cursor: url(./../../../public/images/cursor-pointer.png), auto;
       
       &:hover {
         color: $color-principal;

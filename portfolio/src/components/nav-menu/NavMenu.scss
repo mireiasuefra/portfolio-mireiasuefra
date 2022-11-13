@@ -1,11 +1,13 @@
 @import "./../../styles/shared.scss";
 
 .menu {
+  font-family: $principal-font;
   padding-right: 10px;
   background-color: $color-fifth;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
 
   &-background {
     background-color: $color-principal;
@@ -38,6 +40,7 @@
       font-size: 20px;
       text-transform: capitalize;
       font-weight: 600;
+      cursor: url(./../../../public/images/cursor-pointer.png), auto;
     }
   }
 }

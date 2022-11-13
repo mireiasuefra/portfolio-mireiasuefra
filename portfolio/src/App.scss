@@ -9,6 +9,11 @@
 	outline: none;
 }
 
+html{
+  cursor: url(./../public/images/cursor.png), auto;
+}
+
+
 
 .body {
   width: 100vw;
@@ -16,6 +21,7 @@
   display: grid;
   grid-template-rows: 6vh 94vh;
   grid-gap: 0px;
+  
 }
 
 .main {

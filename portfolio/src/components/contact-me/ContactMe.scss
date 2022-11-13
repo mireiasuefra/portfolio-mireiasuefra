@@ -13,6 +13,8 @@
   min-height: 75vh;
 
   &__title {
+    font-family: $hello-font;
+    letter-spacing: 3px;
     color: $color-principal;
     font-size: 20px;
     box-shadow: 2px 2px 5px $color-fifth;
