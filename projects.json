@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "name": "descodigadas",
+    "image": "./images/descodigadas.jpg",
+    "url": "https://mireiasuefra.github.io/descodigadas/",
+    "github_url": "https://github.com/mireiasuefra/descodigadas",
+    "description": "Website from scratch with HTML5 and CSS3. I have used a starter-kit based on Gulp as the basis of the project. This starter-kit allows to use HTML partials for a better organization of the code and to be able to compose it. It also includes Sass that allows me to add extra utilities when generating the CSS.",
+    "tech": ["HTML5", "SCSS"]
+  },
+  {
+    "id": "2",
+    "name": "spotify",
+    "image": "./images/spotify.jpg",
+    "url": "https://mireiasuefra.github.io/landing-page-spotify/",
+    "github_url": "https://github.com/mireiasuefra/landing-page-spotify",
+    "description": "In this project I make a copy of the Spotify landing page. For this challenge I rely on technologies like HTML5 and SASS (as a framework to CSS). As a basis of the project I used a starter-kit based on Gulp.",
+    "tech": ["SCSS", "HTML5"]
+  },
+  {
+    "id": "3",
+    "name": "rock-paper-scissors",
+    "image": "./images/rock-paper-scissors.jpg",
+    "url": "https://mireiasuefra.github.io/rock-paper-scissors/",
+    "github_url": "https://github.com/mireiasuefra/rock-paper-scissors",
+    "description": "This is the famous rock-paper-scissors game. This game has been built with JavaScript, CSS and HTML5. It is a simple development where you can play against the machine and have a fun time. ",
+    "tech": ["JavaScript", "CSS", "HTML5"]
+  },
+  {
+    "id": "4",
+    "name": "harry-potter",
+    "image": "./images/harry-potter.jpg",
+    "url": "https://mireiasuefra.github.io/searcher-harry-potter/",
+    "github_url": "https://github.com/mireiasuefra/searcher-harry-potter",
+    "description": "Development of a website inspired by Harry Potter characters. Using the API provided (https://hp-api.herokuapp.com/), I have generated a search engine for characters from the famous saga, filtering by name or house of the character.",
+    "tech": ["React", "React-Router", "SCSS"]
+  },
+  {
+    "id": "5",
+    "name": "hangman",
+    "image": "./images/hangman.jpg",
+    "url": "https://mireiasuefra.github.io/hangman-game/",
+    "github_url": "https://github.com/mireiasuefra/hangman-game",
+    "description": "This is the famous hangman game, this time made with React. Exercise carried out in pair programming with a partner. You can play alone using the random word option or you can also choose yourself the word you want another person to guess.",
+    "tech": ["React", "React-Router", "SCSS"]
+  },
+  {
+    "id": "6",
+    "name": "ask-me",
+    "image": "./images/ask-me.jpg",
+    "url": "https://mireiasuefra.github.io/ask-me/",
+    "github_url": "https://github.com/mireiasuefra/ask-me",
+    "description": "In this project you can see some of my programming skills. Project made with React. In this challenge you will find a series of questions with three answers each and you will have to guess which one is correct. If you guess right it will turn green and if you fail it will turn red. It's another way to get to know me a bit better.",
+    "tech": ["React", "SCSS"]
+  },
+  {
+    "id": "7",
+    "name": "repositories",
+    "image": "./images/repositories.jpg",
+    "url": "https://mireiasuefra.github.io/github-searcher/",
+    "github_url": "https://github.com/mireiasuefra/github-searcher-ts",
+    "description": "This is an application where you can search my Github repositories. To build this project I have relied on the library provided by Github, Prime. This project is a migration to Typescrip from an existing project.",
+    "tech": ["React", "Typescript", "SCSS", "Primer"]
+  }
+
+]

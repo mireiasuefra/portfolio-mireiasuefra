@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio-mireiasuefra/static/css/main.02152207.css",
+    "main.js": "/portfolio-mireiasuefra/static/js/main.1c3aaefa.js",
+    "static/media/mireia.jpeg": "/portfolio-mireiasuefra/static/media/mireia.1430bbc8a7b96f7038ce.jpeg",
+    "static/media/DK-Cosmo-Stitch.otf": "/portfolio-mireiasuefra/static/media/DK-Cosmo-Stitch.a51f8f5c60fc65233be9.otf",
+    "static/media/avatar.png": "/portfolio-mireiasuefra/static/media/avatar.dbfb189cf44322ecc9c3.png",
+    "static/media/DJB-The-Teacher-Font.ttf": "/portfolio-mireiasuefra/static/media/DJB-The-Teacher-Font.cb77bc85d0cefab7011d.ttf",
+    "static/media/Amandella.otf": "/portfolio-mireiasuefra/static/media/Amandella.27e7320442789c5c6ae0.otf",
+    "index.html": "/portfolio-mireiasuefra/index.html",
+    "main.02152207.css.map": "/portfolio-mireiasuefra/static/css/main.02152207.css.map",
+    "main.1c3aaefa.js.map": "/portfolio-mireiasuefra/static/js/main.1c3aaefa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02152207.css",
+    "static/js/main.1c3aaefa.js"
+  ]
+}
