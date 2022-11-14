@@ -86,6 +86,14 @@
 
     &-btn {
       width: 100%;
+      background-color: $color-terciary;
+      color: $color-fourth;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 20px;
+      text-transform: uppercase;
+
+      cursor: url(./../../../public/images/cursor-pointer.png), auto;
     }
   }
 }
