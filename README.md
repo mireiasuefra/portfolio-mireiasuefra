@@ -4,7 +4,7 @@ Hello world!
 This is my portfolio and in it I tell you about myself and my motivations, I also show you some of the projects I've done and if you want to contact me, you have a form to ask me anything you want.
 
 
-[imae portfolio](https://github.com/mireiasuefra/portfolio-mireiasuefra/blob/main/src/images/img-portfolio.png)
+![imae portfolio](https://github.com/mireiasuefra/portfolio-mireiasuefra/blob/main/src/images/img-portfolio.png)
 
 
 
@@ -19,7 +19,7 @@ I have chosen React as the framework for the exercise, as it is the one I am mos
 * [Sass](https://sass-lang.com/) as CSS framework.
 
 
-## Getting Started ⚙️
+## Getting Started ⚙️add
 
 - Clone this repo:
   ```shell
