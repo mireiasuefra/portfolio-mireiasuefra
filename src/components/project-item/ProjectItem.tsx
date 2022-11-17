@@ -17,10 +17,9 @@ function ProjectItem(props: ProjectItemProps) {
             <div>
               <p className="item__description">{props.project.description}</p>
               <p className="item__tech">
-                Technologies: {props.project.tech.join(", ")}{" "}
+                Technologies: {props.project.tech.join(", ")}
               </p>
             </div>
-   
 
             <div className="item__links">
               <a
