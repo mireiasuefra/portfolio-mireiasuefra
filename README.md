@@ -19,7 +19,7 @@ I have chosen React as the framework for the exercise, as it is the one I am mos
 * [Sass](https://sass-lang.com/) as CSS framework.
 
 
-## Getting Started ⚙️add
+## Getting Started ⚙️
 
 - Clone this repo:
   ```shell
