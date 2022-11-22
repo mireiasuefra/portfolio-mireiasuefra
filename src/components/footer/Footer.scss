@@ -1,51 +1,48 @@
 @import "./../../styles/shared.scss";
 
-
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-    font-family: $principal-font;
-    background-color: $color-fifth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  font-family: $principal-font;
+  background-color: $color-fifth;
 
-  
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+  }
+
+  &__img {
+    height: 80px;
+    border-radius: 20%;
+    padding-bottom: 3px;
+
     @media (min-width: $breakpoint-tablet) {
-      flex-direction: row;
-      justify-content: space-around;
-      padding: 30px;
-    }
-  
-    &__img {
-      height: 80px;
-      border-radius: 20%;
-      padding-bottom: 3px;
-  
-      @media (min-width: $breakpoint-tablet) {
-        height: 100px;
-      }
-    }
-  
-    &__rrss-title {
-      font-size: 13px;
-      color: $color-terciary;
-    }
-  
-    &__rrss {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    &__rrss-web {
-      padding-left: 15px;
-      color: $color-terciary;
-      cursor: url(./../../../public/images/cursor-pointer.png), auto;
-      
-      &:hover {
-        color: $color-principal;
-      }
+      height: 100px;
     }
   }
-  
+
+  &__rrss-title {
+    font-size: 13px;
+    color: $color-terciary;
+  }
+
+  &__rrss {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__rrss-web {
+    padding-left: 15px;
+    color: $color-terciary;
+    cursor: url(./../../../public/images/cursor-pointer.png), auto;
+
+    &:hover {
+      color: $color-principal;
+    }
+  }
+}

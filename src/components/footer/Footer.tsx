@@ -3,7 +3,6 @@ import React from "react";
 
 import logoFooter from "../../images/avatar.png";
 
-
 function Footer() {
   return (
     <>

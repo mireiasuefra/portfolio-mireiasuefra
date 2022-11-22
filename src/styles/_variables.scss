@@ -1,23 +1,17 @@
 @font-face {
   font-family: "hello-font";
-  src: url("./../../public/fonts/DK-Cosmo-Stitch.otf") format("truetype");
+  src: url("./../../public/fonts/dk-cosmo-stitch.otf") format("truetype");
 }
 
 @font-face {
   font-family: "principal";
-  src: url("./../../public/fonts/DJB-The-Teacher-Font.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "secondary";
-  src: url("./../../public/fonts/Amandella.otf") format("truetype");
+  src: url("./../../public/fonts/djb-the-teacher.ttf") format("truetype");
 }
 
 $breakpoint-tablet: 825px;
 $breakpoint-desktop: 1024px;
 $hello-font: "hello-font";
 $principal-font: "principal";
-$secondary-font: "secondary";
 $color-principal: #011504;
 $color-secondary: #498752;
 $color-terciary: #dd7b0b;

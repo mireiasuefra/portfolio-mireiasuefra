@@ -3,9 +3,7 @@
 Hello world! 
 This is my portfolio and in it I tell you about myself and my motivations, I also show you some of the projects I've done and if you want to contact me, you have a form to ask me anything you want.
 
-
-![imae portfolio](https://github.com/mireiasuefra/portfolio-mireiasuefra/blob/main/src/images/img-portfolio.png)
-
+![imae portfolio](https://github.com/mireiasuefra/portfolio-mireiasuefra/blob/main/doc/img-portfolio.png)
 
 
 ## Comments 📚
@@ -17,7 +15,6 @@ I have chosen React as the framework for the exercise, as it is the one I am mos
 * [React](https://reactjs.org) as a JavaScript library.
 * [Typescript](https://www.typescriptlang.org/) as a superset of JavaScript.
 * [Sass](https://sass-lang.com/) as CSS framework.
-
 
 ## Getting Started ⚙️
 
@@ -38,11 +35,9 @@ I have chosen React as the framework for the exercise, as it is the one I am mos
 
 This runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
 
-
 ## Improvements 📝
 
 - Add some tests.
-
 
 ## About me: 👩🏻‍💻
 

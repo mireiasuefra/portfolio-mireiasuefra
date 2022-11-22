@@ -17,11 +17,9 @@ function ProjectList() {
 
   const renderProjects = () => {
     return projects.map((oneProject: Project) => {
-      return (
-        <ProjectItem project={oneProject} />
-      );
-    })
-  }
+      return <ProjectItem key={oneProject.id} project={oneProject} />;
+    });
+  };
 
   return (
     <div>

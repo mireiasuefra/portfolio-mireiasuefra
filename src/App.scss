@@ -1,19 +1,17 @@
 @import "./styles/shared.scss";
 
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	border: none;
-	outline: none;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
-html{
+html {
   cursor: url(./../public/images/cursor.png), auto;
 }
-
-
 
 .body {
   width: 100vw;
@@ -21,7 +19,6 @@ html{
   display: grid;
   grid-template-rows: 6vh 94vh;
   grid-gap: 0px;
-  
 }
 
 .main {
