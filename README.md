@@ -9,6 +9,7 @@ This is my portfolio and in it I tell you about myself and my motivations, I als
 ## Comments 📚
 
 I have chosen React as the framework for the exercise, as it is the one I am most familiar with. To create the project, I used [Create React App](https://create-react-app.dev/) and added SASS to work with the styles.
+I have also added Typescrip as it is something I have been working with lately and I want to deepen my knowledge. 
 
 ## Built with 🚀
 
@@ -38,6 +39,8 @@ This runs the app in the development mode. Open http://localhost:3000 to view it
 ## Improvements 📝
 
 - Add some tests.
+- It is a living portfolio, I would like to add more functionality and more projects over time.
+
 
 ## About me: 👩🏻‍💻
 
